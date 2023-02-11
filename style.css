@@ -1,0 +1,267 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    float:left;
+    margin-left:20px;
+    margin-top: 20px;
+}
+.navmain{
+    background-color: blueviolet;
+    
+}
+.navmain::after{
+    
+    content: "";
+    display: block;
+    clear: both;
+}
+nav ul{
+    
+    display: flex;
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover a{
+    background-color: rgb(53, 8, 253);
+    padding: 8px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius: 10px;
+} 
+
+.container1{
+    width: 100%;
+    background-image:url(container.png);
+    background-size: cover;
+    height: 500px;
+    clear: both;
+}
+.dopmain{
+    position: relative;
+}
+.dop {
+    position:absolute;
+    display: block;
+    margin: -9999px;
+    
+    
+}
+.dop li{
+
+   background-color: azure;
+      
+}
+.dopmain:hover .dop{
+
+    margin: 0px;
+
+
+}
+.maindiv1{
+    width: 50%;
+    float:left;
+    text-align: center;
+    margin-top: 230px;
+    color: rgb(255, 255, 255);
+    clear: both;
+    font-size: 25px;
+}
+.maindiv2{
+    width: 50%;
+    float: right;
+    
+    
+ 
+}
+.maindiv2 .man{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+aside h2, .mainh2{
+    color: rgb(236, 252, 8);
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    text-shadow: 2px 2px 2px white;
+
+}
+.cardmain{
+    width: 100%;
+    align-content: center;
+    position:relative;
+    left: 50px;
+    
+}
+    
+.card{
+    width: 20%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 1px rgb(243, 239, 239);
+    transition: 10s;
+    overflow: hidden;
+}
+.card h3 , p{
+    padding:10px;
+}
+.card img:hover {
+    
+    transform:rotate(5deg)
+    
+
+}
+.card1 h3 , p{
+    padding:10px;
+}
+.card1 img:hover {
+    
+    transform:rotate(5deg)
+    
+
+}
+.card2 h3 , p{
+    padding:10px;
+}
+.card2 img:hover {
+    
+    transform:rotate(5deg)
+    
+
+}
+.card3 h3 , p{
+    padding:10px;
+}
+.card3 img:hover {
+    
+    transform:rotate(5deg)
+    
+
+}
+
+
+.card1{
+    width: 20%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 1px rgb(243, 239, 239);
+    transition: 10s;
+    overflow: hidden;
+}
+.card2{
+    width: 20%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 1px rgb(243, 239, 239);
+    transition: 10s;
+    overflow: hidden;
+}
+.card3{
+    width: 20%;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px 1px rgb(243, 239, 239);
+    transition: 10s;
+    overflow: hidden;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    justify-content: center;
+}
+.section1{
+    margin: 40px;
+    margin-right: 200px;
+}
+.section2{
+    margin: 40px;
+    margin-left: 200px;
+}
+label{
+    margin-top: 30px;
+}
+.div11{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    clear: both;
+}
+.div11 .div1{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.btnmore{
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    background-color: aqua;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+}
+.div11 .div2{
+    width: 50%;
+    text-align: center;
+
+}
+.div11 .div2 img{
+    width: 350px;
+    
+}
+
+.blog{
+    text-align: center;
+    
+    background:linear-gradient(rgba(0, 128, 0, 0.377),rgba(195, 248, 5, 0.342)) , url(home-bg.jpg);
+    background-position: center;
+    height: 400px;
+    clear: both;
+    
+}
+.blogsub{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    color: white;
+    
+}
+
